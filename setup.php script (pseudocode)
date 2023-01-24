@@ -20,3 +20,4 @@
 9. Remind user of their login credentials, prompt them to reboot Yipi.
 10. Reboot Yipi (comes up to login screen)
 11. Upon login, take user to admin screen (contains link to user screen)
+    1st login only - welcome user to Yipi community, give them their hipi name and a link to the Yipi community forum
