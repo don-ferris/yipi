@@ -1,0 +1,22 @@
+1. Check for /tmp/refreshed.yipi
+    exists: proceed to step 2
+    not exist: clone index.php from github then write /tmp/refreshed.yipi and restart (run) setup script
+2. Ask for primary username (to be created) and password
+3. Show user pros/cons of Plex, Emby, and Jellyfin and ask them to choose. (Jellyfin is recommended.)
+4. Ask user about torrent downloading preferences 
+    discuss quality differences of self-ripped titles vs torrent downloads, explain Ripi and Stash
+    admonish user to only download titles they already own
+    Y - user wants to download  torrents
+        1. Explain the importance of a VPN; ask if they already have one
+            N - present options with affiiate links.
+        2. Ask user to enter VPN credentials (or proceed without a VPN - strong admonishment)
+        3. Present user with options for bittorent clients
+        4. Present user with options for downloading movie/TV/music/ebook/audiobook/comicbook content
+    N - Present user with non-torrent options
+5. Present user with a list of their configuration option selections, giving them the opportunity to revisit and modify their choices
+6. Generate long/complex root password; show it to user and tell them how important it is that they write it down and don't lose it.
+7. Perform all installations, write all config files
+8. Let user know that setup is complete; explain admin and user screens
+9. Remind user of their login credentials, prompt them to reboot Yipi.
+10. Reboot Yipi (comes up to login screen)
+11. Upon login, take user to admin screen (contains link to user screen)
